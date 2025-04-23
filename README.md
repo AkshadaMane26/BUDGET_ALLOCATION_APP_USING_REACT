@@ -1,8 +1,57 @@
-# React + Vite
+# 💰 Company's Budget Allocation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based interactive web application that allows users to manage and allocate a company’s budget across various departments. It supports real-time updates, dynamic allocation adjustments, and multiple currency options.
 
-Currently, two official plugins are available:
+![App Preview](assets/image.png) <!-- Replace with actual image path or GitHub-hosted URL -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🚀 Features
+
+- 💵 Set total budget and track remaining amount
+- 🧮 View and manage allocations per department
+- ➕ Increase or ➖ decrease budget by increments of 10
+- ❌ Delete department allocations
+- 🔁 Add new allocations dynamically
+- 🌐 Currency selector (e.g., Dollar, Pound)
+- 🎨 Responsive and user-friendly interface
+
+---
+
+## 📸 UI Overview
+
+- Budget input field and currency selector at the top
+- Table listing departments with allocated budgets
+- Action buttons for each department: increase, decrease, delete
+- Form to add or update department allocations
+
+---
+
+## 🛠️ Tech Stack
+
+React JS
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js & npm installed
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/budget-allocation-react.git
+   cd budget-allocation-react
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   
+3. Run the app:
+   npm run dev
+   
+5. Open http://localhost:3000 in your browser.
