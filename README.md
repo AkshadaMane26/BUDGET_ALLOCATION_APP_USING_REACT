@@ -2,7 +2,7 @@
 
 A React-based interactive web application that allows users to manage and allocate a company’s budget across various departments. It supports real-time updates, dynamic allocation adjustments, and multiple currency options.
 
-![App Preview](assets/image.png) <!-- Replace with actual image path or GitHub-hosted URL -->
+![App Preview](src/assets/image.png) <!-- Replace with actual image path or GitHub-hosted URL -->
 
 ---
 
